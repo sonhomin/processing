@@ -1,4 +1,4 @@
-##1주차 공의 좌우 반복
+#1주차 공의 좌우 반복
 ```
 void setup(){
   size(500,500);
@@ -12,5 +12,4 @@ void draw(){
   
   //println(frameRate);
 }
-
 ```
