@@ -1,0 +1,16 @@
+##1주차 공의 좌우 반복
+```
+void setup(){
+  size(500,500);
+}
+int h=0;
+void draw(){
+  background(0); //black 255 <- white
+  fill(0,0,255); 
+  ellipse(h+=5, 250, 100,100);
+  if(h>500) h=0;
+  
+  //println(frameRate);
+}
+
+```
